@@ -2,7 +2,16 @@
     background-color: rgba(138, 122, 196, 0.863);
 }
 
+.navbar p{
+    line-height: 0;
+}
+
+.row{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .ItchLogo{
-    height: 75px;
+    height: 50px;
     width: auto;
 }
