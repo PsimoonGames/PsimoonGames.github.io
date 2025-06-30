@@ -1,5 +1,18 @@
+@font-face {
+    font-family: ananda;
+    src: url(Assets/Fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .navbar{
     background-color: rgba(138, 122, 196, 0.863);
+}
+
+.navbar h1{
+    font-family: ananda; 
 }
 
 .navbar p{
