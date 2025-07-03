@@ -1,7 +1,10 @@
 .item {
     background-color: rgb(23, 6, 31);
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .tags{
@@ -23,6 +26,27 @@
 
 .CS{
     background-color: rgb(52, 110, 133);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Unity {
+    background-color: rgb(110, 110, 110);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Godot {
+    background-color: rgb(53, 124, 165);
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.GDS {
+    background-color: rgb(153, 127, 87);
     border-radius: 15px;
     padding-left: 5px;
     padding-right: 5px;
