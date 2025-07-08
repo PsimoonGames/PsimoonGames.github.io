@@ -7,6 +7,10 @@
     margin-bottom: 20px;
 }
 
+.heading{
+    margin-left: 30px;
+}
+
 .tags{
         margin: 0;
         display:flex;
