@@ -11,6 +11,12 @@
     margin-left: 30px;
 }
 
+.filters{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
 .tags{
         margin: 0;
         display:flex;
