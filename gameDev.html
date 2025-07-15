@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="listPage.css">
 
 <title>Games</title>
+
 <!--header-->
 </head>
   <body data-bs-theme="dark">
@@ -61,13 +62,13 @@
         <h1 class="heading">Web Development</h1>
       </div>
       <div class = "col-sm-12 col-lg-6">
-          <div class = "filters">
-            <button>Show All</button>
-            <button>Monogame</button>
-            <button>Unity</button>
-            <button>Godot</button>
-            <button>C#</button>
-            <button>GDScript</button>
+        <div class = "filters" id="btnContainer">
+          <button class="btn" onclick="filterSelection('all')">Show All</button>
+          <button class="btn" onclick="filterSelection('monogame')">Monogame</button>
+          <button class="btn" onclick="filterSelection('unity')">Unity</button>
+          <button class="btn" onclick="filterSelection('godot')">Godot</button>
+          <button class="btn" onclick="filterSelection('cs')">C#</button>
+          <button class="btn" onclick="filterSelection('gds')">GDScript</button>
         </div>
       </div>
     </div>
@@ -76,7 +77,7 @@
     <!--List Items-->
     <br>
     <div class="row outer">
-      <div class="col-sm-12 col-lg-6">
+      <div class="col-sm-12 col-lg-6 FilterClass monogame cs">
        <div class="card item">
           <h4>A Level Project</h4>
           <p>November 2020 - April 2022</p>
@@ -88,7 +89,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-lg-6">
+      <div class="col-sm-12 col-lg-6 FilterClass unity cs">
         <div class="card item">
           <h4>Game Design and Development Project</h4>
           <p>December 2023 - May 2024</p>
@@ -102,7 +103,7 @@
     </div>
 
     <div class="row outer">
-      <div class="col-sm-12 col-lg-6">
+      <div class="col-sm-12 col-lg-6 FilterClass unity cs">
        <div class="card item">
           <h4>Escape The Office</h4>
           <p>September 2024 - January 2025</p>
@@ -114,7 +115,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-lg-6">
+      <div class="col-sm-12 col-lg-6 FilterClass godot gds">
         <div class="card item">
           <h4>GravTrap</h4>
           <p>November 2024 - April 2025</p>
@@ -128,7 +129,7 @@
     </div>
 
     <div class="row outer">
-      <div class="col-sm-12 col-lg-6">
+      <div class="col-sm-12 col-lg-6 FilterClass godot gds">
        <div class="card item">
           <h4>Willow The Whale</h4>
           <p>June 2025</p>
@@ -141,6 +142,7 @@
       </div>
     </div>
 
+    <script src="filter.js"></script>
     
 
     <!--Footer-->

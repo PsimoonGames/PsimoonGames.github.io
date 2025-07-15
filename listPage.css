@@ -17,6 +17,22 @@
     margin-right: 50px;
 }
 
+.btn{
+    background-color: rgb(83, 83, 83);
+}
+
+.btn.active{
+    background-color: rgb(29, 29, 29);
+}
+
+.FilterClass{
+    display: none;
+}
+
+.FilterClass.show{
+    display: block;
+}
+
 .tags{
         margin: 0;
         display:flex;
