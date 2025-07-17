@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (min-width: 576px){
+    .vid{
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .vid{
+        padding-top: 50px;
+        display: block;
+        margin: 0 auto;
+        width: 1000px;
+        height: auto;
+    }
+}

@@ -19,6 +19,7 @@
 
 .btn{
     background-color: rgb(83, 83, 83);
+    margin-left: 5px;
 }
 
 .btn.active{
