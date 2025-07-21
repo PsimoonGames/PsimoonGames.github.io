@@ -3,6 +3,17 @@
     font-weight: bold;
 }
 
+.vid{
+        padding-top: 50px;
+        display: block;
+        margin: 0 auto;
+}
+
+.article{
+    padding-top: 50px;
+    font-size: 18px;
+}
+
 @media (min-width: 576px){
     .vid{
         width: 500px;
@@ -17,5 +28,10 @@
         margin: 0 auto;
         width: 1000px;
         height: auto;
+    }
+
+    .article{
+        padding-left: 75px;
+        padding-right: 75px;
     }
 }
