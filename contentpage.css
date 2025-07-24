@@ -9,8 +9,13 @@
         margin: 0 auto;
 }
 
-.article{
+.articleheader{
     padding-top: 50px;
+    font-size: 18px;
+}
+
+.article{
+    padding-top: 20px;
     font-size: 18px;
 }
 
@@ -28,6 +33,11 @@
         margin: 0 auto;
         width: 1000px;
         height: auto;
+    }
+
+    .articleheader{
+        padding-left: 75px;
+        padding-right: 75px;
     }
 
     .article{
