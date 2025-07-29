@@ -24,7 +24,7 @@
 <link rel = "stylesheet" href = "../style.css">
 <link rel="stylesheet" href="../contentpage.css">
 
-<title>Escape The Office</title>
+<title>GravTrap</title>
 <!--header-->
 </head>
   <body class="d-flex flex-column min-vh-100" data-bs-theme="dark">
@@ -60,7 +60,7 @@
       <!--Title-->
       <div class="row outer">
         <div class="col-sm-12">
-          <h1 class="title">Escape The Office</h1>
+          <h1 class="title">GravTrap</h1>
         </div>
         
         <br>
@@ -72,24 +72,27 @@
         <br>
         <!--Main text body-->
         <p class="articleheader">
-          This game was created for a University assignment.
-          We were required to create a game that was 3D, was in third person, contained a 3D modelled building and had a cutscene which featured the building.
-          The game I decided to make was a stealth game about fleeing from an office, avoiding surveilence cameras and security guards.
-          The office was the building that I 3D modelled and consisted of multiple floors, 2 of which were the setting of the game.
-          To pass each floor, the player would have to reach a button to remove the security lasers before moving down to the next floor until they can eventually leave the office.
-          Upon leaving the office, a small cutscene plays and the game comes to an end.
+            This project was created for my final year project at university.
+            The aim of this project was to create a prototype for a movement based game which utilises gravity changing direction to mix up gameplay.
+            I used the Godot game engine for this project, making it the first major project I chose to use this game engine for.
+            The game I created consisted of a movement system which contained movement mechanics such as running, jumping, dashing, sliding and wall running.
+            It also contained changing gravity along with enemies, multiple levels and a save system to save settings and scores.
         </p>
         <p class="article">
-          This project introduced me to the sound and animation parts of Unity.
-          Using these I was able to add sound effects and ambience to implement audio into the game.
-          Using the animation side of Unity, I was able to animate the character for the cutscene.
-          I was also able to add an animation tree to move between the different animations for player movement and for the AI enemy movements.
-          Throughout the development of this project, I was also able to learn how to program some basic AI for the security guards.
-          I implemented a vision radius for the guards which is used to determine whether the user is detected or not.
-          Using a navigation mesh, I can allow the guards to navigate the world without moving through obstacles.
-          Until the player is detected, they move from point to point, in a predefined pattern.
-          Once the player is detected, the guard chases the player until they are caught and the player loses the game.
-          Given more time, I would have liked to expand the AI to respond to the player making significant noise such as running or jumping when close to the guards.
+            Changing gravity was implemented through the use of a set of variables which behaves as a 'virtual axes', which is used to convert the movement output into the correct movement based on which direction gravity is acting on the player.
+            This is done because all the movement calculations are done as if the gravity is in its default state and since Godot's move_and_slide() function moves the player globally, a conversion is done to translate the movement calculations into the correct orientation for the player.
+        </p>
+        <p class="article">
+            This project taught me how to manage and structure out larger projects in a way that allows me to be able to come back to sections of code, or just find files easier.
+            In previous projects, due to their simplicity or short duration of development, organisation was less important as there would be no need to revisit sections of code.
+            However, with this project, which containted many complex features which would need to be adjusted regularly, building each feature in a way where easy modification could occur was of vital importance for completing it within the timeframe provided.
+        </p>
+        <p class="article">
+            This project could have been improved through adding some audio. Due to time restraints, audio wasn't able to be added to the game.
+            Completing this could have allowed the prototype to create a more representative experience for what a final game could consist of.
+            It could also have been improved through more testing. Some of the numbers used in the movement system could have been refined to provide a smoother movement experience.
+            The movement system also contained a few minor bugs which were unable to be resolved before the submission time.
+            Fixing these could have also allowed for a more complete experience.
         </p>
       </div>
     </main>
