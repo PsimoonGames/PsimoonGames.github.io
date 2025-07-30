@@ -24,7 +24,7 @@
 <link rel = "stylesheet" href = "../style.css">
 <link rel="stylesheet" href="../contentpage.css">
 
-<title>GravTrap</title>
+<title>Willow The Whale</title>
 <!--header-->
 </head>
   <body class="d-flex flex-column min-vh-100" data-bs-theme="dark">
@@ -60,7 +60,7 @@
       <!--Title-->
       <div class="row outer">
         <div class="col-sm-12">
-          <h1 class="title">GravTrap</h1>
+          <h1 class="title">Willow The Whale</h1>
         </div>
         
         <br>
@@ -72,30 +72,19 @@
         <br>
         <!--Main text body-->
         <p class="articleheader">
-            This project was created for my final year project at university.
-            The aim of this project was to create a prototype for a movement based game which utilises gravity changing direction to mix up gameplay.
-            I used the Godot game engine for this project, making it the first major project I chose to use this game engine for.
-            The game I created consisted of a movement system which contained movement mechanics such as running, jumping, dashing, sliding and wall running.
-            It also contained changing gravity along with enemies, multiple levels and a save system to save settings and scores.
+            This game was created in a week as a part of Jame Gam 50, hosted on Itch.io. 
+            The theme for this game jame was Space Whales, and there was a requirement to include a special item. For this game jam it was a printed circuit board.
+            The game I created was an adventure game about a space whale accidently eating a printed circuit board which then guides the whale to a destination.
+            Navigation is achieved through a procedurally generated map of different solar systems, each one container a combat encounter for the player to complete before moving onto the next.
+            Each combat encounter is turn based, where the player and enemies have a selection of moves they can use each turn.
+            I would have liked to have been able to add minigames for each move the player makes to determine the amount of damage or healing they do, however, in the interest of making the game more balanced and optimised, I decided to leave that feature out of the game I submitted.
         </p>
         <p class="article">
-            Changing gravity was implemented through the use of a set of variables which behaves as a 'virtual axes', which is used to convert the movement output into the correct movement based on which direction gravity is acting on the player.
-            This is done because all the movement calculations are done as if the gravity is in its default state and since Godot's move_and_slide() function moves the player globally, a conversion is done to translate the movement calculations into the correct orientation for the player.
-        </p>
-        <p class="article">
-            This project taught me how to manage and structure out larger projects in a way that allows me to be able to come back to sections of code, or just find files easier.
-            In previous projects, due to their simplicity or short duration of development, organisation was less important as there would be no need to revisit sections of code.
-            However, with this project, which containted many complex features which would need to be adjusted regularly, building each feature in a way where easy modification could occur was of vital importance for completing it within the timeframe provided.
-        </p>
-        <p class="article">
-            This project could have been improved through adding some audio. Due to time restraints, audio wasn't able to be added to the game.
-            Completing this could have allowed the prototype to create a more representative experience for what a final game could consist of.
-            It could also have been improved through more testing. Some of the numbers used in the movement system could have been refined to provide a smoother movement experience.
-            The movement system also contained a few minor bugs which were unable to be resolved before the submission time.
-            Fixing these could have also allowed for a more complete experience.
-            During the process of this game I also ran a play test.
-            This was to guage the viability of turning the game into a full product and whether it would be something players would enjoy.
-            This play test was successful in understanding the strengths and weaknesses of the prototype, which could then be used to give more direction to the game to be expanded further.
+           The main thing I learnt during the creation of this game was how to implement procedural generation.
+           It's a feature that has historically interested me and being able to implement it in this game was a good start to learning about it.
+           The way this game implements it is by using a point map, and then randomly moving the points a certain distance and direction.
+           From this, lines are drawn to the two closest points, representing the path the player can travel down.
+           I could have improved this implementation by including more than one point map to add more variation in the structure of the map created.
         </p>
       </div>
     </main>
