@@ -22,7 +22,7 @@
 @media (min-width: 576px){
     .vid{
         width: 500px;
-        height: auto;
+        height: 262px;
     }
 }
 
@@ -32,7 +32,7 @@
         display: block;
         margin: 0 auto;
         width: 1000px;
-        height: auto;
+        height: 563px;
     }
 
     .articleheader{
