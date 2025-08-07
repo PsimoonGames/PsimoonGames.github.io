@@ -1,10 +1,14 @@
 .item {
-    background-color: rgb(23, 6, 31);
+    background-color: rgb(60, 53, 85);
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
     margin-bottom: 20px;
+}
+
+.item:hover{
+    background-color: rgb(42, 37, 58);
 }
 
 .heading{
