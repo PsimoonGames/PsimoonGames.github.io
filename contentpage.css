@@ -9,6 +9,11 @@
         margin: 0 auto;
 }
 
+.imgList{
+    padding-top: 50px;
+    max-width: 90%;
+}
+
 .articleheader{
     padding-top: 50px;
     font-size: 18px;
