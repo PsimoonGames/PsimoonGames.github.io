@@ -63,13 +63,14 @@
         <!--Images-->
         <div class="row">
             <div class="col-sm-12 col-lg-4">
-                <img class="imgList" src="">
+                <img class="imgList" src="../Assets/WebDev/PayApp/Register.png">
             </div>
             <div class="col-sm-12 col-lg-4">
-                <img class="imgList" src="">
+                <img class="imgList" src="../Assets/WebDev/PayApp/Make Payment.png">
+                <img class="imgList" src="../Assets/WebDev/PayApp/Notifications.png">
             </div>
             <div class="col-sm-12 col-lg-4">
-                <img class="imgList" src="">
+                <img class="imgList" src="../Assets/WebDev/PayApp/Home.png">
             </div>
         </div>
 
@@ -78,6 +79,7 @@
         <p class="articleheader">
             This web application was made for a university assignment.
             The aim of the assignment was to create a web application which is similar to paypal (using fake money) using the Django framework for the backend.
+            It was also uploaded to be run on an AWS server.
             It had to feature the users balance and past transactions, the ability to make payments and request and respond to payment requests.
             There was also a requirement to include an admin section where administrators could see all users and their balances along with all transactions made on the site.
             They also should be able to create new admin users.
@@ -86,10 +88,12 @@
             The web application I created included all the features listed above.
             The data was stored across three models, one for users, which held login information and a users balance, one for transactions, which listed who the transaction was between and how much was transferred, and one for requests which holds the same information as transactions but is used to process payment requests.
             In order to access their data, each user would have to create an account or login using a username and password.
-            
+            For payments to be sent and received, users would also have to enter a user that has already been registered in the app.            
         </p>
         <p class="article">
-            
+            This project could have been improved by making necessary adjustments so it's more user friendly on mobile and other smaller devices.
+            It could also have been improved through better commenting of code and minor optimisations to how some functions were handled.
+            Overall, this project was very successful in achieving its aims of creating a simplified paypal adjacent web application.
         </p>
       </div>
     </main>
