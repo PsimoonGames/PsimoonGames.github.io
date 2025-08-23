@@ -1,0 +1,40 @@
+.card{
+    background-color: rgb(114, 102, 160);
+    height: 600px;
+}
+
+.cardContent{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.cardImg{
+    width: 100%;
+}
+
+.cardText{
+    padding-top: 10px;
+}
+
+.cards{
+    padding-top: 20px;
+}
+
+.cardBtn{
+    color: white;
+    background-color: rgb(60, 53, 85);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.cardBtn:hover{
+    background-color: rgb(42, 37, 58);
+    text-decoration: none;
+    color: white;
+}

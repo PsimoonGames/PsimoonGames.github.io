@@ -22,53 +22,109 @@
 <script src="https://kit.fontawesome.com/6ac3910c4e.js" crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
 <link rel = "stylesheet" href = "style.css">
+<link rel="stylesheet" href="home.css">
 
 <title>Home</title>
 <!--header-->
 </head>
   <body data-bs-theme="dark">
-    <nav class = "navbar sticky-top navbar-expand-sm navbar-menu">
-        <div class="container-fluid">
-            <div class="navbar-brand">
-                <h1>Psimoon</h1>
-                <p>Portfolio</p>
+    <main class="flex-grow-1">
+      <nav class = "navbar sticky-top navbar-expand-sm navbar-menu">
+          <div class="container-fluid">
+              <div class="navbar-brand">
+                  <h1>Psimoon</h1>
+                  <p>Portfolio</p>
+              </div>
+
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          </div> 
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">Portfolio</a>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="gameDev.html">Game Development</a>
+                    <a class="dropdown-item" href="webDev.html">Web Development</a>
+                  </div>
+                </li>
+              </ul>
             </div>
+      </nav>
 
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div> 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">Portfolio</a>
-                <div class="dropdown-menu dropdown-menu-end">
-                  <a class="dropdown-item" href="gameDev.html">Game Development</a>
-                  <a class="dropdown-item" href="webDev.html">Web Development</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-    </nav>
-
-    <!--Introduction text-->
-    <br>
-    <div class="row outer">
-      <div class="col-sm-12">
-        <h2>Introduction</h2>
-        <p>
-          Welcome to my website! This website serves as a place to highlight projects I have undertaken. These are split into two catagories; these are web development and game development.
-          This is not a finite list of all projects I have completed, but instead aims to indicate the projects which have allowed me to learn new skills, and improve others. Below are the
-          three projects that I'm most proud of and feel deserve highlighting above the others. The rest can be found by going to the portfolio dropdown and selecting a category. Happy exploring!
-        </p>
+      <!--Introduction text-->
+      <br>
+      <div class="row outer">
+        <div class="col-sm-12">
+          <h2>Introduction</h2>
+          <p>
+            Welcome to my website!
+            This portfolio highlights my favourite projects I have undertaken in web and game development.
+            This is not a finite record of all the projects I have completed, but instead showcases the projects that taught me the most, challenged my skills and strengthened my abilities.
+          </p>
+          <p>
+            Below are three projects I am especially proud of - ones I feel deserve special attention.
+            To see more, open the portfolio dropdown and choose a category.
+            Enjoy exploring!
+          </p>
+        </div>
       </div>
-    </div>
 
+      <!--Favourite Projects-->
+      <div class="row outer cards">
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="cardContent">
+              <h4 class="cardTitle">GravTrap</h4>
+              <img class="cardImg" src="Assets/GameDev/GravTrap.png">
+              <p class="cardText">
+                This project was made as my final year project at university.
+                I created a game which bases itself around movement utilising mechanics such as sliding, dashing and wallrunning.
+                It also has enemies for the player to defeat in the form of turrets and utilises gravity changing direction as a way to mix up gameplay.
+              </p>
+              <a class="cardBtn" href="gameDevPages/gravtrap.html">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="cardContent">
+              <h4 class="cardTitle">PayApp</h4>
+              <img class="cardImg" src="Assets/WebDev/PayApp/Home.png">
+              <p class="cardText">
+                This web application was made using Django for the backend logic.
+                The application features a registration system along with ways for users to send and request money, see previous transactions and see their balance.
+                There are also administrator users which can create new administrators and see users and transactions.
+              </p>
+              <a class="cardBtn" href="webDevPages/payApp.html">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="cardContent">
+              <h4 class="cardTitle">Original Character Website</h4>
+              <img class="cardImg" src="Assets/WebDev/OCWebsite/HomePage.png">
+              <p class="cardText">
+                This aim of this website is to display and show 3D models.
+                It contains a total of 3 3D models and various interactions such as showing its wireframes and playing animations.
+                The website also contains an about page providing information about how the various parts of the website works and a homepage.
+                The website also utilises bootstrap to lay out the pages, making the website structured better and make it work on devices of different screen sizes.
+              </p>
+              <a class="cardBtn" href="webDevPages/OCWebsite.html">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <br>
     <!--Footer-->
-    <nav class = "navbar fixed-bottom navbar-expand-sm navbar-footer">
+    <nav class = "navbar navbar-expand-sm navbar-footer">
       <div class="container-fluid">
           <div class="navbar-text ms=left">
             <p>&copy Psimoon, 2025. All rights reserved.</p>
