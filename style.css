@@ -8,15 +8,38 @@ body{
 }
 
 .navbar{
-    background-color: rgba(138, 122, 196, 0.863);
+    background-color: rgb(138, 122, 196);
 }
 
 .navbar h1{
+    color: #fefdfd;
     font-family: ananda; 
 }
 
 .navbar p{
+    color: #fefdfd;
     line-height: 0;
+}
+
+.navItem{
+    color: #fefdfd;
+    font-size: 18px;
+}
+
+.current{
+    font-weight: bold;
+}
+
+.drop{
+    background-color: rgb(138, 122, 196);
+}
+
+.dropItem{
+    color: #fefdfd;
+}
+
+.dropItem:hover{
+    background-color: rgb(42, 37, 58);
 }
 
 .outer{

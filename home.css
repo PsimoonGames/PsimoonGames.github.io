@@ -1,6 +1,96 @@
+.OpeningText{
+    position: relative;
+    overflow: hidden;
+}
+
+.topIMG {
+    width: 100%;
+    opacity: 40%;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    top: 10%;
+    bottom: 5%;
+}
+
+@media (max-width: 999px){
+    .openHeading{
+        color: #fefdfd;
+        font-weight: bold;
+    }
+
+    .openText{
+        color: #fefdfd;
+    }
+
+    .scrollDownIMG{
+        scale: 0%;
+        margin-top: -150px;
+    }
+}
+
+@media (min-width: 1000px){
+    .openHeading{
+        color: #fefdfd;
+        font-size: 50px;
+        font-weight: bold;
+        padding-bottom: 50px;
+    }
+
+    .openText{
+        color: #fefdfd;
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .scrollDownIMG{
+        scale: 15%;
+        margin-top: -200px;
+    }
+}
+
+@media (min-width: 1500px){
+    .openHeading{
+        color: #fefdfd;
+        font-size: 100px;
+        font-weight: bold;
+        padding-bottom: 100px;
+    }
+
+    .openText{
+        color: #fefdfd;
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .scrollDownIMG{
+        scale: 25%;
+        margin-top: -100px;
+    }
+}
+
+.featProj{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+
 .card{
+    color: #fefdfd;
     background-color: rgb(114, 102, 160);
     height: 110%;
+    border-radius: 30px;
+}
+
+.cardTitle{
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-left: 5px;
 }
 
 .cardContent{
@@ -11,6 +101,7 @@
 
 .cardImg{
     width: 100%;
+    border-radius: 20px;
 }
 
 .cardText{
@@ -22,7 +113,7 @@
 }
 
 .cardBtn{
-    color: white;
+    color: #fefdfd;
     background-color: rgb(60, 53, 85);
     padding-top: 5px;
     padding-left: 10px;
@@ -36,5 +127,9 @@
 .cardBtn:hover{
     background-color: rgb(42, 37, 58);
     text-decoration: none;
-    color: white;
+    color: #fefdfd;
+}
+
+.cardCol{
+    padding-bottom: 100px;
 }

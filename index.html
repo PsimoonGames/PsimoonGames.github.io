@@ -43,13 +43,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
+                  <a class="nav-link navItem current" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">Portfolio</a>
-                  <div class="dropdown-menu dropdown-menu-end">
-                    <a class="dropdown-item" href="gameDev.html">Game Development</a>
-                    <a class="dropdown-item" href="webDev.html">Web Development</a>
+                  <a class="nav-link dropdown-toggle navItem" href="#" id="navbardrop" data-bs-toggle="dropdown">Portfolio</a>
+                  <div class="dropdown-menu dropdown-menu-end drop">
+                    <a class="dropdown-item dropItem" href="gameDev.html">Game Development</a>
+                    <a class="dropdown-item dropItem" href="webDev.html">Web Development</a>
                   </div>
                 </li>
               </ul>
@@ -57,26 +57,28 @@
       </nav>
 
       <!--Introduction text-->
-      <br>
-      <div class="row outer">
-        <div class="col-sm-12">
-          <h2>Introduction</h2>
-          <p>
-            Welcome to my website!
-            This portfolio highlights my favourite projects I have undertaken in web and game development.
-            This is not a finite record of all the projects I have completed, but instead showcases the projects that taught me the most, challenged my skills and strengthened my abilities.
-          </p>
-          <p>
-            Below are three projects I am especially proud of - ones I feel deserve special attention.
-            To see more, open the portfolio dropdown and choose a category.
-            Enjoy exploring!
-          </p>
+      <div class="OpeningText">
+        <img src="Assets/HomePage/Topimg.JPG" class="topIMG">
+          <div class="row overlay outer">
+            <div class="col-sm-12">
+              <h1 class = "openHeading">Welcome!</h1>
+              <p class="openText">
+                This portfolio highlights my favourite projects I have undertaken in web and game development.
+              </p>
+              <p class="openText">
+                This is not a finite record of all the projects I have completed, but instead showcases the projects that taught me the most, challenged my skills and strengthened my abilities.
+              </p>
+              <img src="Assets/HomePage/scroll down icon.png" class="scrollDownIMG">
+            </div>
+          </div>
         </div>
-      </div>
 
       <!--Favourite Projects-->
+      <h1 class="featProj">Featured Projects</h1>
+
       <div class="row outer cards">
-        <div class="col-lg-4 col-sm-12">
+
+        <div class="col-lg-4 col-sm-12 cardCol">
           <div class="card">
             <div class="cardContent">
               <h4 class="cardTitle">GravTrap</h4>
@@ -90,7 +92,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-12">
+
+        <div class="col-lg-4 col-sm-12 cardCol">
           <div class="card">
             <div class="cardContent">
               <h4 class="cardTitle">PayApp</h4>
@@ -104,7 +107,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-12">
+
+        <div class="col-lg-4 col-sm-12 cardCol">
           <div class="card">
             <div class="cardContent">
               <h4 class="cardTitle">Original Character Website</h4>
