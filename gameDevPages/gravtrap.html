@@ -39,62 +39,77 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="index.html">Home</a>
+                  <a class="nav-link navItem" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle navItem current" href="#" id="navbardrop" data-bs-toggle="dropdown">Portfolio</a>
                   <div class="dropdown-menu dropdown-menu-end drop">
-                    <a class="dropdown-item dropItem current" href="gameDev.html">Game Development</a>
-                    <a class="dropdown-item dropItem" href="webDev.html">Web Development</a>
+                    <a class="dropdown-item dropItem current" href="../gameDev.html">Game Development</a>
+                    <a class="dropdown-item dropItem" href="../webDev.html">Web Development</a>
                   </div>
                 </li>
               </ul>
             </div>
       </nav>
 
-      <br>
-      <!--Title-->
-      <a class="backBtn" href="../gameDev.html">Back</a>
-      
-      <div class="row outer">
-        <div class="col-sm-12">
-          <h1 class="title">GravTrap</h1>
-        </div>
+      <div class="topBack">
+        <br>
+        <!--Title-->
+        <a class="backBtn" href="../gameDev.html">Back</a>
         
-        <br>
-        <!--video-->
-        <iframe controls class="vid" src="https://youtube.com/embed/Dd0LELYOKZA"></iframe>
-
-        <br>
-        <!--Main text body-->
-        <p class="articleheader">
-            This project was created for my final year project at university.
-            The aim of this project was to create a prototype for a movement based game which utilises gravity changing direction to mix up gameplay.
-            I used the Godot game engine for this project, making it the first major project I chose to use this game engine for.
-            The game I created consisted of a movement system which contained movement mechanics such as running, jumping, dashing, sliding and wall running.
-            It also contained changing gravity along with enemies, multiple levels and a save system to save settings and scores.
-        </p>
-        <p class="article">
-            Changing gravity was implemented through the use of a set of variables which behaves as a 'virtual axes', which is used to convert the movement output into the correct movement based on which direction gravity is acting on the player.
-            This is done because all the movement calculations are done as if the gravity is in its default state and since Godot's move_and_slide() function moves the player globally, a conversion is done to translate the movement calculations into the correct orientation for the player.
-        </p>
-        <p class="article">
-            This project taught me how to manage and structure out larger projects in a way that allows me to be able to come back to sections of code, or just find files easier.
-            In previous projects, due to their simplicity or short duration of development, organisation was less important as there would be no need to revisit sections of code or focus on optimisation.
-            However, with this project, which contained many complex features which would need to be adjusted regularly, building each feature in a way where easy modification could occur was of vital importance for completing it within the timeframe provided.
-        </p>
-        <p class="article">
-            This project could have been improved through adding some audio.
-            Due to time restraints, audio wasn't able to be added to the game.
-            Completing this could have allowed the prototype to create a more representative experience for what a final game could consist of.
-            It could also have been improved through more testing. Along with this, some of the numbers used in the movement system could have been refined to provide a smoother movement experience.
-            The movement system also contained a few minor bugs which were unable to be resolved before the submission time.
-            Fixing these could have also allowed for a more complete experience.
-            During the process of this game I also ran a play test.
-            This was to gauge the viability of turning the game into a full product and whether it would be something players would enjoy.
-            This play test was successful in understanding the strengths and weaknesses of the prototype, which could then be used to give more direction to the game to be expanded further.
-        </p>
+        <div class="row outer">
+          <div class="col-sm-12">
+            <h1 class="title">GravTrap</h1>
+          </div>
+          
+          <br>
+          <!--video-->
+          <iframe controls class="vid" src="https://youtube.com/embed/Dd0LELYOKZA"></iframe>
+          <br>
+        </div>
       </div>
+
+
+      <div class="row outer content">
+        <div class="col-sm-12 col-md-12 col-lg-8">
+          <!--Main text body-->
+          <p class="articleheader">
+              This project was created for my final year project at university.
+              The aim of this project was to create a prototype for a movement based game which utilises gravity changing direction to mix up gameplay.
+              I used the Godot game engine for this project, making it the first major project I chose to use this game engine for.
+              The game I created consisted of a movement system which contained movement mechanics such as running, jumping, dashing, sliding and wall running.
+              It also contained changing gravity along with enemies, multiple levels and a save system to save settings and scores.
+          </p>
+          <p class="article">
+              Changing gravity was implemented through the use of a set of variables which behaves as a 'virtual axes', which is used to convert the movement output into the correct movement based on which direction gravity is acting on the player.
+              This is done because all the movement calculations are done as if the gravity is in its default state and since Godot's move_and_slide() function moves the player globally, a conversion is done to translate the movement calculations into the correct orientation for the player.
+          </p>
+          <p class="article">
+              This project taught me how to manage and structure out larger projects in a way that allows me to be able to come back to sections of code, or just find files easier.
+              In previous projects, due to their simplicity or short duration of development, organisation was less important as there would be no need to revisit sections of code or focus on optimisation.
+              However, with this project, which contained many complex features which would need to be adjusted regularly, building each feature in a way where easy modification could occur was of vital importance for completing it within the timeframe provided.
+          </p>
+          <p class="article">
+              This project could have been improved through adding some audio.
+              Due to time restraints, audio wasn't able to be added to the game.
+              Completing this could have allowed the prototype to create a more representative experience for what a final game could consist of.
+              It could also have been improved through more testing. Along with this, some of the numbers used in the movement system could have been refined to provide a smoother movement experience.
+              The movement system also contained a few minor bugs which were unable to be resolved before the submission time.
+              Fixing these could have also allowed for a more complete experience.
+              During the process of this game I also ran a play test.
+              This was to gauge the viability of turning the game into a full product and whether it would be something players would enjoy.
+              This play test was successful in understanding the strengths and weaknesses of the prototype, which could then be used to give more direction to the game to be expanded further.
+          </p>
+        </div>
+
+        <!--Images-->
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <img src="../Assets/GameDev/gravtrap/GravTrap.png" class="images">
+          <img src="../Assets/GameDev/gravtrap/Level2.png" class="images">
+        </div>
+      </div>
+
+      <br>
     </main>
 
     <!--Footer-->

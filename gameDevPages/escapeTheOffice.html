@@ -39,35 +39,40 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="index.html">Home</a>
+                  <a class="nav-link navItem" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle navItem current" href="#" id="navbardrop" data-bs-toggle="dropdown">Portfolio</a>
                   <div class="dropdown-menu dropdown-menu-end drop">
-                    <a class="dropdown-item dropItem current" href="gameDev.html">Game Development</a>
-                    <a class="dropdown-item dropItem" href="webDev.html">Web Development</a>
+                    <a class="dropdown-item dropItem current" href="../gameDev.html">Game Development</a>
+                    <a class="dropdown-item dropItem" href="../webDev.html">Web Development</a>
                   </div>
                 </li>
               </ul>
             </div>
       </nav>
 
-      <br>
-      <!--Title-->
-      <a class="backBtn" href="../gameDev.html">Back</a>
-
-      <div class="row outer">
-        <div class="col-sm-12">
-          <h1 class="title">Escape The Office</h1>
-        </div>
+      <div class="topBack">
+        <br>
+        <!--Title-->
+        <a class="backBtn" href="../gameDev.html">Back</a>
         
-        <br>
-        <!--video-->
-        <iframe controls class="vid" src="https://youtube.com/embed/vA5o3W6W8bk"></iframe>
+        <div class="row outer">
+          <div class="col-sm-12">
+            <h1 class="title">Escape The Office</h1>
+          </div>
+          
+          <br>
+          <!--video-->
+          <iframe controls class="vid" src="https://youtube.com/embed/vA5o3W6W8bk"></iframe>
+          <br>
+        </div>
+      </div>
 
-        <br>
-        <!--Main text body-->
-        <p class="articleheader">
+      <div class="row outer content">
+        <div class="col-sm-12 col-md-12 col-lg-8">
+          <!--Main text body-->
+          <p class="articleheader">
           This game was created for a University assignment.
           We were required to create a game that was 3D, in third person, contained a 3D modelled building and had a cutscene which featured the building.
           The game I decided to make was a stealth game about fleeing from an office, avoiding surveillance cameras and security guards.
@@ -87,6 +92,13 @@
           Once the player is detected, the guard chases the player until they are caught and the player loses the game.
           Given more time, I would have liked to expand the AI to respond to the player making significant noise such as running or jumping when close to the guards.
         </p>
+        </div>
+
+        <!--Images-->
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <img src="../Assets/GameDev/escapeTheOffice/EscapeTheOffice.png" class="images">
+          <img src="../Assets/GameDev/escapeTheOffice/Floor2.png" class="images">
+        </div>
       </div>
     </main>
 

@@ -1,3 +1,8 @@
+.topBack{
+    background-color: rgb(19, 17, 27);
+    padding-bottom: 30px;
+}
+
 .backBtn{
     margin-left: 50px;
     font-size: 20px;
@@ -23,7 +28,7 @@
 }
 
 .vid{
-        padding-top: 50px;
+        padding-top: 20px;
         display: block;
         margin: 0 auto;
 }
@@ -34,8 +39,13 @@
 }
 
 .articleheader{
-    padding-top: 50px;
+    padding-top: 10px;
     font-size: 18px;
+}
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .article{
@@ -55,7 +65,6 @@
     padding-right: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
-    margin-bottom: 20px;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -65,6 +74,14 @@
     background-color: rgb(42, 37, 58);
     text-decoration: none;
     color: white;
+}
+
+.images{
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 @media (min-width: 576px){

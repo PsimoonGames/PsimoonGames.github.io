@@ -39,54 +39,67 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="index.html">Home</a>
+                  <a class="nav-link navItem" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle navItem current" href="#" id="navbardrop" data-bs-toggle="dropdown">Portfolio</a>
                   <div class="dropdown-menu dropdown-menu-end drop">
-                    <a class="dropdown-item dropItem current" href="gameDev.html">Game Development</a>
-                    <a class="dropdown-item dropItem" href="webDev.html">Web Development</a>
+                    <a class="dropdown-item dropItem current" href="../gameDev.html">Game Development</a>
+                    <a class="dropdown-item dropItem" href="../webDev.html">Web Development</a>
                   </div>
                 </li>
               </ul>
             </div>
       </nav>
 
-      <br>
-      <!--Title-->
-      <a class="backBtn" href="../gameDev.html">Back</a>
-      
-      <div class="row outer">
-        <div class="col-sm-12">
-          <h1 class="title">Willow The Whale</h1>
-        </div>
+      <div class="topBack">
+        <br>
+        <!--Title-->
+        <a class="backBtn" href="../gameDev.html">Back</a>
         
-        <br>
-        <!--video-->
-        <iframe controls class="vid" src="https://youtube.com/embed/q0g0mfEovvY"></iframe>
-
-        <br>
-        <!--Main text body-->
-        <p class="articleheader">
-            This game was created in a week as a part of Jame Gam 50, hosted on Itch.io. 
-            The theme for this game jam was Space Whales, and there was a requirement to include a special item. For this game jam it was a printed circuit board.
-            The game I created was an adventure game about a space whale accidentally eating a printed circuit board which then guides the whale to a destination.
-            Navigation is achieved through a procedurally generated map of different solar systems, each one containing a combat encounter for the player to complete before moving onto the next.
-            Each combat encounter is turn based, where the player and enemies have a selection of moves they can use each turn.
-            I would have liked to have been able to add minigames for each move the player makes to determine the amount of damage or healing they do, however, in the interest of making the game more balanced and optimised, I decided to leave that feature out of the game I submitted.
-        </p>
-        <p class="article">
-           The main thing I learnt during the creation of this game was how to implement procedural generation.
-           It's a feature that has historically interested me and being able to implement it in this game was a good start to learning about it.
-           The way this game implements it is by using a point map, and then randomly moving the points a certain distance and direction.
-           From this, lines are drawn to the two closest points, representing the path the player can travel down.
-           I could have improved this implementation by including more than one point map to add more variation in the structure of the map created.
-        </p>
+        <div class="row outer">
+          <div class="col-sm-12">
+            <h1 class="title">Willow The Whale</h1>
+          </div>
+          
+          <br>
+          <!--video-->
+          <iframe controls class="vid" src="https://youtube.com/embed/q0g0mfEovvY"></iframe>
+          <br>
+        </div>
       </div>
 
-      <!--Play / Github repo buttons-->
-      <div class="extraButtons">
-        <a href="https://psimoon.itch.io/willow-the-whale" class="playBtn">Play Here!</a>
+      <div class="row outer content">
+        <!--Main text body-->
+        <div class="col-sm-12 col-md-12 col-lg-8">
+          <p class="articleheader">
+              This game was created in a week as a part of Jame Gam 50, hosted on Itch.io. 
+              The theme for this game jam was Space Whales, and there was a requirement to include a special item. For this game jam it was a printed circuit board.
+              The game I created was an adventure game about a space whale accidentally eating a printed circuit board which then guides the whale to a destination.
+              Navigation is achieved through a procedurally generated map of different solar systems, each one containing a combat encounter for the player to complete before moving onto the next.
+              Each combat encounter is turn based, where the player and enemies have a selection of moves they can use each turn.
+              I would have liked to have been able to add minigames for each move the player makes to determine the amount of damage or healing they do, however, in the interest of making the game more balanced and optimised, I decided to leave that feature out of the game I submitted.
+          </p>
+          <p class="article">
+            The main thing I learnt during the creation of this game was how to implement procedural generation.
+            It's a feature that has historically interested me and being able to implement it in this game was a good start to learning about it.
+            The way this game implements it is by using a point map, and then randomly moving the points a certain distance and direction.
+            From this, lines are drawn to the two closest points, representing the path the player can travel down.
+            I could have improved this implementation by including more than one point map to add more variation in the structure of the map created.
+          </p>
+        
+
+        <!--Play / Github repo buttons-->
+          <div class="extraButtons">
+            <a href="https://psimoon.itch.io/willow-the-whale" class="playBtn">Play Here!</a>
+          </div>
+        </div>
+
+        <!--Images-->
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <img src="../Assets/GameDev/WillowTheWhale/WillowTheWhale.png" class="images">
+          <img src="../Assets/GameDev/WillowTheWhale/Battle.png" class="images">
+        </div>
       </div>
     </main>
 
