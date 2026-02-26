@@ -91,6 +91,14 @@
     text-align: center;
 }
 
+.workTitle{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
 .card{
     color: #fefdfd;
     background-color: rgb(114, 102, 160);
@@ -143,4 +151,42 @@
 
 .cardCol{
     padding-bottom: 100px;
+}
+
+.workContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.workOverlay{
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    top: 50%;
+    bottom: 50%;
+}
+
+.workIMG{
+    width: 100%;
+    height: 300px;
+    opacity: 60%;
+}
+
+.workBtn{
+    font-size: 25px;
+    color: #fefdfd;
+    background-color: rgb(60, 53, 85);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.workBtn:hover{
+    background-color: rgb(42, 37, 58);
+    text-decoration: none;
+    color: #fefdfd;
 }
