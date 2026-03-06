@@ -84,6 +84,11 @@
     padding-top: 20px;
 }
 
+.articleSubtitle{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
 @media (min-width: 576px){
     .vid{
         width: 500px;
@@ -103,6 +108,11 @@
     .articleheader{
         padding-left: 75px;
         padding-right: 75px;
+    }
+
+    .articleSubtitle{
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .article{
